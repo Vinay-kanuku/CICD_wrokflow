@@ -37,11 +37,17 @@ python app.py
 
 ## Running with Docker
 ```sh
-# Build the Docker image
-docker build -t my-flask-app .
+# Pull the latest image
+docker pull vinay75/flask-app:latest
 
-# Run the container
-docker run -p 5000:5000 my-flask-app
+# Run the container with proper port mapping
+docker run -d -p 5000:5000 --name flask-app yourusername/flask-app:latest
+
+# Check if container is running
+docker ps
+
+# View logs if there are issues
+docker logs flask-app
 ```
 
 ## CI/CD Pipeline
