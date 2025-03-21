@@ -25,8 +25,8 @@ This project demonstrates a complete CI/CD pipeline using **GitHub Actions**, **
 ## How to Run Locally
 ```sh
 # Clone the repository
-git clone <repo-url>
-cd <repo-name>
+git clone https://github.com/Vinay-kanuku/CICD_wrokflow.git
+cd  CICD_wrokflow
 
 # Install dependencies
 pip install -r requirements.txt
