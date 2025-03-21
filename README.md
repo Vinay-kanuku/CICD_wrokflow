@@ -41,7 +41,7 @@ python app.py
 docker pull vinay75/flask-app:latest
 
 # Run the container with proper port mapping
-docker run -d -p 5000:5000 --name flask-app yourusername/flask-app:latest
+docker run -d -p 5000:5000 --name flask-app vinay75/flask-app:latest
 
 # Check if container is running
 docker ps
